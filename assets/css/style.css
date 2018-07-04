@@ -84,3 +84,10 @@
 #sidebar-nav-button:hover{
   background: #0b7dda;
 }
+/* card propriety*/
+.card-columns {
+display: inline-inline-block;
+margin-left: 0px;
+margin-top: 20px;
+text-align: center;
+}
