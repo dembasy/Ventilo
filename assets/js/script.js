@@ -1,7 +1,7 @@
-$(function(){
+/*$(function(){
   $('.sidebar-nav').hide();
 });
-
+*/
 console.log('event appen');
 
 $(document).ready(function(){
