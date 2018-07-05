@@ -130,3 +130,14 @@ text-align: center;
   box-shadow: 0px 0px 5px black;
   margin-bottom: 100px;
 }
+.navi-top{
+  background-color: black;
+  height: 101px;
+  width: 100%;
+}
+#venti-logo{
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 85px;
+  text-align: center;
+  margin-left: 47%;
