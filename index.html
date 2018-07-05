@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,25 +20,6 @@
   <!--Debut wrapper-all -->
   <div id="wrapper-all">
 
-    <button type="button" class="btn btn-info btn-md" id="myBtn">Votre panier</button>
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Modal with Dark Overlay</h4>
-          </div>
-          <div class="modal-body">
-            <p>This modal has a dark overlay.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!--Debut sidebar-wrappper -->
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
@@ -45,6 +27,7 @@
         <div id="sidebar-nav-div"><li><a id="cardTower-show-hide" class="sidebar-nav-link">Ventilateur colonne</a></li></div>
         <div id="sidebar-nav-div"><li><a id="cardBlade-show-hide" class="sidebar-nav-link">Ventilateur sans pales</a></li></div>
         <div id="sidebar-nav-div"><li><a id="cardFan-show-hide" class="sidebar-nav-link">Ventilateur sur pied</a></li></div>
+        <button type="button" class="btn btn-info btn-lg" name="button" data-toggle="modal" data-target="#myModal" id="button-panier-sidebar">Votre panier</button>
       </ul>
     </div>
     <!-- Fin sidebar-wrapper -->
@@ -67,7 +50,7 @@
             <h5 class="card-title" data-quantity="1" data-name="Ventil">Ventil</h5>
             <div hidden data-ref="151.963">151.963</div>
             <p class="card-text" data-price="25.99">25.99€</p>
-           <button type="button" name="button" class="shopping btn btn-light" id="btn2">Ajoutez-moi à votre panier</button>
+            <button type="button" name="button" class="shopping btn btn-light" id="btn2">Ajoutez-moi à votre panier</button>
           </div>
         </div>
         <div class="card bg-dark text-white" id="vt3">
@@ -322,6 +305,34 @@
       </div>
     </div>
   </div>
+
+  <!-- Debut du modal du cul-->
+  <div class="container">
+
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Votre panier</h4>
+          </div>
+          <div class="modal-body">
+            <p>Oops, ces vides</p>
+          </div>
+          <div class="modal-footer">
+            <p>Total: </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Valider</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- Fin du modal du cul-->
+
   <!--Fin wrapper-all -->
 </body>
 </html>

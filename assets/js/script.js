@@ -8,5 +8,5 @@ $(document).ready(function(){
   $('#cardFan-show-hide').click(function(){
     $('#cardFan').toggle('slow');
   });
-  $('.sidebar-nav').hide();
+  //$('.sidebar-nav').hide();
 });
