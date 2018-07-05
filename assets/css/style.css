@@ -1,8 +1,9 @@
 /* Sidenav */
 .sidebar-nav {
   position: fixed;
-  top: 0;
-  height: 100%;
+  top: 1;
+  height: 600px;
+  min-height: 600px;
   width: 250px;
   margin: 0;
   padding: 0;
@@ -72,7 +73,8 @@ text-align: center;
 #cardTower{
   border: 1px grey;
   box-shadow: 0px 0px 5px black;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 #cardBladeTitle{
   border-bottom: 10px grey;
@@ -85,7 +87,8 @@ text-align: center;
 #cardBlade{
   border: 1px grey;
   box-shadow: 0px 0px 5px black;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 #cardFanTitle{
   border-bottom: 10px grey;
@@ -98,12 +101,14 @@ text-align: center;
 #cardFan{
   border: 1px grey;
   box-shadow: 0px 0px 5px black;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .navi-top{
   background-color: black;
   height: 101px;
   width: 100%;
+  z-index: 1;
 }
 #venti-logo{
   color: white;
