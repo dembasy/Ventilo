@@ -91,3 +91,15 @@ margin-left: 0px;
 margin-top: 20px;
 text-align: center;
 }
+.navi-top{
+  background-color: black;
+  height: 101px;
+  width: 100%;
+}
+#venti-logo{
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 85px;
+  text-align: center;
+  margin-left: 47%;
+}
