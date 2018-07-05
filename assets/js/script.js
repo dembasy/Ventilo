@@ -1,11 +1,12 @@
-/*$(function(){
-  $('.sidebar-nav').hide();
-});
-*/
-console.log('event appen');
-
 $(document).ready(function(){
-    $("#myBtn").click(function(){
-        $("#myModal").modal("toggle");
-    });
+  $('#cardTower-show-hide').click(function(){
+    $('#cardTower').toggle('slow');
+  });
+  $('#cardBlade-show-hide').click(function(){
+    $('#cardBlade').toggle('slow');
+  });
+  $('#cardFan-show-hide').click(function(){
+    $('#cardFan').toggle('slow');
+  });
+  $('.sidebar-nav').hide();
 });

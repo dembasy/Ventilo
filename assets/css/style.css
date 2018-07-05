@@ -31,6 +31,7 @@
 /* Sidebar div */
 #sidebar-nav-div{
   background-color: #4b4f4e;
+  color: #FFF;
   border: 1px solid grey;
   width: 95%;
   text-align: center;
@@ -49,40 +50,9 @@
 }
 /* Sidebar link hover */
 .sidebar-nav-link:hover{
-  font-size: 24px;
+  font-size: 22px;
   color: #FFF;
   text-decoration: none;
-}
-/* Sidebar search input div */
-#sidebar-nav-div-search{
-  width: 90%;
-  height: 100px;
-  margin-bottom: 15px;
-  text-align: center;
-}
-/* Sidebar search input */
-#sidebar-nav-search{
-  width: 80%;
-  height: auto;
-  float: left;
-  padding: 10px;
-  border: 1px solid grey;
-}
-/* Sidebar search button */
-#sidebar-nav-button{
-  width: 20%;
-  height: auto;
-  float: left;
-  border: 1px solid grey;
-  padding: 10px;
-  background: #2196F3;
-  color: white;
-  border-left: none;
-  cursor: pointer;
-}
-/* Sidebar search button hover */
-#sidebar-nav-button:hover{
-  background: #0b7dda;
 }
 /* card propriety*/
 .card-columns {
@@ -141,3 +111,13 @@ text-align: center;
   font-size: 85px;
   text-align: center;
   margin-left: 47%;
+}
+#cardTower{
+  display: none;
+}
+#cardBlade{
+  display: none;
+}
+#cardFan{
+  display: none;
+}
